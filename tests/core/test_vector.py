@@ -129,3 +129,7 @@ class Vector2TestCase(unittest.TestCase):
             Vector2(1, math.sqrt(3)).angle_between(Vector2(0, 1000)),
             math.pi / 6
         )
+        self.assertAlmostEqual(
+            Vector2(1, math.sqrt(3)).angle_between(Vector2(0, -1000)),
+            math.pi - math.pi / 6
+        )

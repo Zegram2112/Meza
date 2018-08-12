@@ -1,11 +1,11 @@
 import math
 
 
-"""Class to represent 2d vectors"""
 class Vector2:
+    """Class to represent 2d vectors"""
 
-    """Class constructor, accepts x and y coordinates"""
     def __init__(self, x=0, y=0):
+        """Class constructor, accepts x and y coordinates"""
         self.x = x
         self.y = y
 

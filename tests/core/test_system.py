@@ -38,3 +38,9 @@ class SystemTestCase(unittest.TestCase):
         self.system.default_dt = 0.001
         self.system.step()
         self.assertEqual(self.system.datetime.microsecond, 1000)
+
+    def test_global_forces(self):
+        self.system.add_external_force(Vector2(0, 1))
+        self.system.add_body(Body())
+        self.system.step(1)
+        self.assertEqual(self.system.bodies[0].velocity, Vector2(0, 1))

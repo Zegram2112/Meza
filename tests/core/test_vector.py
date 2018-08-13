@@ -1,5 +1,5 @@
 import unittest
-from meza.core.vector2 import Vector2
+from meza import Vector2
 import math
 
 

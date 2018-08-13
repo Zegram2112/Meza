@@ -1,7 +1,7 @@
 Classes
 =======
 
-.. automodule:: meza.core
+.. automodule:: meza
 
 Vector2
 -------

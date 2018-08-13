@@ -6,10 +6,10 @@ Classes
 Vector2
 -------
 .. autoclass:: Vector2
-    :members:
+  :members:
 
 Body
 ----
 
 .. autoclass:: Body
-    :members:
+  :members:

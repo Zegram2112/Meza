@@ -7,12 +7,12 @@ Welcome to Meza's documentation!
 ================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-   :hidden:
+  :maxdepth: 2
+  :caption: Contents:
+  :hidden:
 
-   intro
-   classes
+  intro
+  classes
 
 Indices and tables
 ==================

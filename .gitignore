@@ -4,4 +4,7 @@ __pycache__/*
 *.pyc
 
 # Docs
-build/*
+docs/build/*
+
+# Project specific
+sandbox/*
